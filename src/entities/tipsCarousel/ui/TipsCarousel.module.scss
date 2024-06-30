@@ -1,0 +1,18 @@
+.buttons {
+	max-width: 430px;
+	overflow-x: auto;
+  white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+    display: none; 
+  }
+  button {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.05px;
+    letter-spacing: 0.0094em;
+    text-align: center;
+		padding: 25px;
+  }
+}

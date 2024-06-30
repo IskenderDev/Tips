@@ -1,0 +1,20 @@
+.regDiv {
+	margin: 10% 0px;
+	display: flex;
+	flex-direction: column;
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41.4px;
+    letter-spacing: 0.0094em;
+    text-align: center;
+  }
+  hr {
+    width: 85%;
+    margin: 0 auto;
+    color: black;
+    line-height: 10px;
+		margin-bottom: 25px;
+    border: 1px solid #2a62d6;
+  }
+}

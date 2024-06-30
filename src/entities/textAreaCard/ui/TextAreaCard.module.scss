@@ -1,0 +1,43 @@
+// src/components/TextAreaCard.module.scss
+.container {
+  width: 300px;
+  border-radius: 8px;
+  margin: 40px auto 15px;
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.line {
+  height: 80px; /* Высота изображения */
+  width: 1px;
+  background-color: #ccc;
+  margin-right: 16px;
+  border: 1px solid #2a62d6;
+}
+
+.textarea {
+  width: 60%;
+  border: none;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  color: #565656;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.08px;
+  letter-spacing: 0.0094em;
+  text-align: left;
+
+  &:focus {
+    outline: none;
+    background-color: #ffffff;
+    border-color: none;
+  }
+
+  &::placeholder {
+    color: #565656;
+  }
+}

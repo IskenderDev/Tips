@@ -1,0 +1,32 @@
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  .likeButton,
+  .dislikeButton {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    width: 40%;
+    &:hover {
+      background-color: lightblue;
+    }
+
+    &.active {
+      background-color: #2a62d6;
+      color: white;
+    }
+  }
+}
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.84px;
+  letter-spacing: 0.0094em;
+  text-align: left;
+  margin: 10% 20px 20px;
+}

@@ -1,0 +1,38 @@
+.pay {
+  padding: 15px;
+    .payLabel {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24.84px;
+      letter-spacing: 0.0094em;
+      text-align: left;
+			margin: 20px;
+    }
+    .payInput {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 55.2px;
+      letter-spacing: 0.0094em;
+      text-align: center;
+			border: none;
+			border-bottom: 2px solid #2A62D6 ;
+			border-radius: 0px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			input{
+				font-size: 45px;
+				font-weight: 700;
+				line-height: 55.2px;
+				letter-spacing: 0.0094em;
+				text-align: left;
+				margin-left: 10px;
+			}
+    }
+		.payBtn{
+			width: 40%;
+			font-size: 25px;
+			padding: 35px;
+			margin: 0 auto;
+		}
+}
